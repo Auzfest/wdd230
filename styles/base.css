@@ -8,11 +8,11 @@ body{
     align-self: center;
     margin: auto;
     width: 600px;
-    border: 5px solid darkred;
+    border: 5px solid rgb(175, 4, 4);
 }
 
 header {
-    background-color: darkred;
+    background-color: rgb(175, 4, 4);
     margin: 0px;
     padding: 0;
     display: flex;
@@ -34,7 +34,8 @@ h1 {
 
 nav{
     text-align: center;
-    background-color: black;
+    margin: auto;
+    background-color: rgb(65, 65, 65);
     padding: 0px;
 }
 
@@ -43,12 +44,14 @@ nav a {
     padding: 10px;
     color: white;
     text-decoration: none;
-    border-bottom: 1px solid white;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
-    color: darkred;
-    transform: scale(1.5);
+    color: rgb(175, 4, 4);
+    transform: scale(1, 1.5);
+    background-color: rgb(37, 37, 37);
+
 
 }
 
@@ -67,16 +70,17 @@ h2 {
 
 section {
     padding-bottom: 30px;
-    border: 5px solid darkred;
+    border: 5px solid rgb(175, 4, 4);
     margin-bottom: 10px;
     border-radius: 5%;
 }
 
 
 h3 {
+    text-align: center;
     font-size: 35px;
     vertical-align: top;
-    background-color: darkred;
+    background-color: rgb(175, 4, 4);
     margin: 0;
 }
 
@@ -91,7 +95,7 @@ li a {
 }
 
 li a:hover {
-    color: darkred;
+    color: rgb(175, 4, 4);
     transform: scale(1.5);
 }
 
@@ -102,7 +106,7 @@ div {
 
 footer {
     text-align: center;
-    background-color: darkred;
+    background-color: rgb(175, 4, 4);
     margin-top: 40px;
 }
 
