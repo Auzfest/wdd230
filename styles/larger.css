@@ -5,6 +5,10 @@
         margin: auto;
 
     }
+
+    header {
+        justify-content: center;
+    }
     main {
         grid-template-columns: 1fr 1fr;
         padding: 5px;
