@@ -3,15 +3,31 @@
     body{
         width: auto;
         margin: auto;
-
     }
 
     header {
         justify-content: center;
     }
     main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 5px;
+    }
+
+    #menu {
+		display: none;
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+    .navigation a {
+        display: block;
+        padding: 10px;
+        color: white;
+        text-decoration: none;
+        transition: all 0.3s ease;
     }
 
     .card {
@@ -25,4 +41,14 @@
 	nav a {
 		flex: 1 1 100%;
 	}
+
+    iframe {
+        grid-column: span 2;
+    }
+
+    /*Design principle*/
+    .lastdesigncard {
+    grid-column: span 2;
+    }
+
 }

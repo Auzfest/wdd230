@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Bebas Neue', sans-serif;
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+
+}
+
+body{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #2738D3;
+    color: #F6AA1C;
+    padding: 20px;
+}
+
+main h2{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #07090F;
+}
+
+hr{
+    border: 2px solid #07090F;
+    margin: 10px;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+div {
+    padding: 10px;
+    width: 15%;
+    margin: auto;
+    margin-top: 5px;
+}
+.color1{
+    background-color: #2738D3;
+    color: #F6AA1C;
+}
+
+.color2{
+    background-color: #F6AA1C;
+    color: #07090F;
+}
+
+.color3{
+ background-color: #07090F;  
+ color: #CDD7D6; 
+}
+
+.color4{
+    background-color: #CDD7D6;
+    color: #07090F;
+}
+
+.mainfont{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.secondfont{
+    font-family: 'Montserrat';
+}
+
+.backupfont{
+    font-family: sans-serif;
+}
