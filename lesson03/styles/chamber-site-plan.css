@@ -15,7 +15,7 @@ body{
 header{
     font-family: 'Bebas Neue', sans-serif;
     background-color: #2738D3;
-    color: #F6AA1C;
+    color: #CDD7D6;
     padding: 20px;
 }
 
@@ -32,9 +32,10 @@ hr{
 p{
     font-family: 'Montserrat';
     font-size: 16px;
+    font-weight: 600;
     margin-left: 100px;
     margin-right: 100px;
-
+    padding: 1rem;
 }
 
 div {
@@ -43,23 +44,45 @@ div {
     margin: auto;
     margin-top: 5px;
 }
+
+nav {
+    background-color: #2738D3;
+    padding: 1rem;
+    padding-left: 0;
+    text-align: left;
+}
+
+nav a {
+    color: #CDD7D6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #CDD7D6;
+    color: #2738D3;
+}
+
 .color1{
     background-color: #2738D3;
-    color: #F6AA1C;
+    color: #CDD7D6;
 }
 
 .color2{
-    background-color: #F6AA1C;
-    color: #07090F;
+    background-color: #CDD7D6;
+    color: #2738D3;
 }
 
 .color3{
  background-color: #07090F;  
- color: #CDD7D6; 
+ color: #F6AA1C; 
 }
 
 .color4{
-    background-color: #CDD7D6;
+    background-color: #F6AA1C;
     color: #07090F;
 }
 
@@ -73,4 +96,8 @@ div {
 
 .backupfont{
     font-family: sans-serif;
+}
+
+.homeimage {
+    width: 60%;
 }
