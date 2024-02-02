@@ -13,7 +13,11 @@ header {
 }
 
 header img {
+    align-self: center;
     grid-column: 1/2;
+    border-radius: 100%;
+    width: 5rem;
+    margin: 1rem;
 }
 
 header h1 {
@@ -26,6 +30,11 @@ header p {
     font-family: 'Montserrat', sans-serif;
     grid-column: 4/5;
     align-self:last baseline;
+}
+
+.heroborder {
+    border: #07090F solid 2px;
+    padding: 5%;
 }
 
 #menu {
@@ -85,7 +94,7 @@ nav.open {
 
 .statement {
     font-family: 'Bebas Neue', 'Montserrat';
-    color: #CDD7D6;
+    color: #07090F; /* change to #CDD7D6 when hero image done*/
 }
 
 .homegrid {
@@ -106,18 +115,24 @@ nav.open {
     font-family: 'Bebas Neue', 'Montserrat';
     grid-column: 1/2;
     grid-row: 1/2;
+    padding-left: 3%;
 }
 
-.goalgrid  p {
+.goalgrid p {
     font-family: 'Montserrat', sans-serif;
     grid-column: 1/2;
     grid-row: 2/3;
+    padding: 3%;
+    padding-top: 0;
 }
 
 .goalgrid .ad {
     text-align: center;
     grid-column: 1/3;
     grid-row: 3/4;
+    padding: 5%;
+    border: #07090F solid 2px; /*temporary*/
+    margin: 1rem;
 }
 
 .goalgrid button{
@@ -126,6 +141,7 @@ nav.open {
     font-family: 'Bebas Neue', 'Montserrat';
     grid-column: 1/3;
     grid-row: 4/5;
+    margin-top: 2%;
 }
 }
 
@@ -135,6 +151,7 @@ nav.open {
     color: #CDD7D6;
     grid-column: 3/4;
     text-align: center;
+    padding: 1%;
 }
 
 .events p {

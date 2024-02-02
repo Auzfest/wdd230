@@ -22,22 +22,29 @@
     font-family: 'Bebas Neue', 'Montserrat';
     grid-column: 1/2;
     grid-row: 1/2;
+    padding-left: 5%;
 }
 
 .goalgrid  p {
     font-family: 'Montserrat', sans-serif;
     grid-column: 1/2;
     grid-row: 2/3;
+    padding: 5%;
+    padding-top: 0;
 }
 
 .goalgrid .ad {
     text-align: center;
     grid-column: 2/3;
     grid-row: 2/3;
+    padding: 5%;
+    border: #07090F solid 2px; /*temporary*/
+    margin: 1rem;
 }
 
 .goalgrid button{
     margin: auto;
+    margin-top: 2%;
     margin-bottom: 2%;
     font-family: 'Bebas Neue', 'Montserrat';
     grid-column: 1/3;
