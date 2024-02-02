@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px)
+{
+#menu {
+    display: none;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+
+.goalgrid h2 {
+    font-family: 'Bebas Neue', 'Montserrat';
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.goalgrid  p {
+    font-family: 'Montserrat', sans-serif;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.goalgrid .ad {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.goalgrid button{
+    margin: auto;
+    margin-bottom: 2%;
+    font-family: 'Bebas Neue', 'Montserrat';
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+}

@@ -4,4 +4,4 @@ var currentDate = new Date();
 var formattedDate = currentDate.getFullYear();
 
 // Set the formatted date as the content of the paragraph
-document.getElementById('dateParagraph').innerHTML = '@ ' + formattedDate;
+document.getElementById('dateParagraph').innerHTML = '@' + formattedDate;
