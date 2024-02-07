@@ -23,6 +23,10 @@
         <h1>Amanzimtoti Chamber of Commerce</h1>
         <p>Welcome to <q>Sweet Waters</q></p>
         <button id="menu"></button>
+        <label class="switch">
+            <input type="checkbox" id="checkbox">
+            <span class="slider"></span>
+        </label>
     </header>
     <nav class="navigation">
         <a href="">Home</a>
@@ -61,12 +65,20 @@
                         <h3>Company Highlight:</h3>
                         <img src="images/adPlaceholder.png" alt="ad image" class="adpic">
                     </div>
-                    <button>Join us!</button>
+                    <a href="" class="pagebutton">Join us!</a>
                 </div>
             </div>
             <div class="events">
                 <h2>Upcoming Events</h2>
-                <p>blah</p>
+                <div>
+                    <h3>Dance at the park!</h3>
+                    <a href="" class="pagebutton">More Info</a>
+                </div>
+                <div>
+                    <h3>Ice Skate at the Mall!</h3>
+                    <a href="" class="pagebutton">More Info</a>
+                </div>
+                <p id="eventendp">We always have new events coming up! Make sure to come back and check often!</p>
             </div>
             <div class="weather">
                 <p>weather</p>
@@ -80,5 +92,7 @@
     </footer>
     <script src="../scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+
 </body>
 </html>

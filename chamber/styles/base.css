@@ -68,6 +68,78 @@ header p {
 	content: "X";
 }
 
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+#modep {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.switch {
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
 nav {
     background-color: #07090F;
 }
@@ -106,7 +178,6 @@ nav.open {
 
 .statement {
     font-family: 'Bebas Neue', 'Montserrat';
-    color: #07090F; /* change to #CDD7D6 when hero image done*/
 }
 
 .homegrid {
@@ -120,6 +191,23 @@ nav.open {
 .goalgrid {
     display: grid;
 }
+
+.pagebutton {
+    text-align: center;
+    font-family: 'Bebas Neue', 'Montserrat';
+    background-color: #F6AA1C;
+    padding: 2%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.pagebutton:hover {
+    background-color: #07090F;
+    color: #F6AA1C;
+
+}
+
 
 @media screen and (max-width: 500px)
 {
@@ -143,11 +231,11 @@ nav.open {
     grid-column: 1/3;
     grid-row: 3/4;
     padding: 5%;
-    border: #07090F solid 2px; /*temporary*/
+    border: #07090F solid 2px;
     margin: 1rem;
 }
 
-.goalgrid button{
+.goalgrid a {
     margin: auto;
     margin-bottom: 2%;
     font-family: 'Bebas Neue', 'Montserrat';
@@ -155,6 +243,7 @@ nav.open {
     grid-row: 4/5;
     margin-top: 2%;
 }
+
 }
 
 .adpic {
@@ -162,6 +251,7 @@ nav.open {
 }
 
 .events {
+    display: grid;
     background-color: #2738D3;
     color: #CDD7D6;
     grid-column: 3/4;
@@ -169,8 +259,17 @@ nav.open {
     padding: 1%;
 }
 
+.events div {
+    margin: 5rem;
+}
+
+
 .events p {
     font-family: 'Montserrat', sans-serif;
+}
+
+#eventendp {
+
 }
 
 .weather {
