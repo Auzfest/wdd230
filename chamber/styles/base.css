@@ -260,16 +260,12 @@ nav.open {
 }
 
 .events div {
-    margin: 5rem;
+    margin: 1rem;
 }
 
 
 .events p {
     font-family: 'Montserrat', sans-serif;
-}
-
-#eventendp {
-
 }
 
 .weather {

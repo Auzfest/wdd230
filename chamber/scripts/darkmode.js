@@ -12,7 +12,7 @@ modeButton.addEventListener("click", () => {
 		weather.style.border = "2px solid #fff";
 		modeButton.textContent = "🔆";
 	} else {
-		main.style.background = "#eee";
+		main.style.background = "#fff";
 		main.style.color = "#000";
 		main.style.transition = "all 0.3s ease";
 		ad.style.border = "2px solid #000";

@@ -2,7 +2,8 @@
 {
     body{
         width: auto;
-        margin: auto;
+        margin-left: 10rem;
+        margin-right: 10rem;
     }
 
     header {
@@ -11,7 +12,6 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 5px;
     }
 
     #menu {
