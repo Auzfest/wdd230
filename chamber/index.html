@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img src="images/SiteLogo.png" alt="Amanzimtoti Chamber Logo">
+        <img src="images/SiteLogo.webp" alt="Amanzimtoti Chamber Logo">
         <h1>Amanzimtoti Chamber of Commerce</h1>
         <p>Welcome to <q>Sweet Waters</q></p>
         <button id="menu"></button>
@@ -36,7 +36,7 @@
     </nav>
     <main>
         <div class="heroborder">
-            <img src="images/AmanzimtotiBeach.jpg" alt="hero image" class="hero">
+            <img src="images/AmanzimtotiBeach.webp" alt="hero image" class="hero">
             <h2 class="statement">Welcome to Amanzimtoti Chamber of Commerce!<br> We are dedicated to serving and growing our community!</h2>
         </div>
         <div class="homegrid">
@@ -63,7 +63,7 @@
                     </p>
                     <div class="ad">
                         <h3>Company Highlight:</h3>
-                        <img src="images/Nando's.png" alt="Nando's ad" class="adpic">
+                        <img src="images/Nando's.webp" alt="Nando's ad" class="adpic">
                         <p>Big thanks to Nandos for supporting our community!</p>
                     </div>
                     <a href="" class="pagebutton">Join us!</a>
@@ -84,7 +84,9 @@
                 <p id="eventendp">We always have new events coming up! Make sure to come back and check often!</p>
             </div>
             <div class="weather">
-                <p>weather</p>
+                <p>Temperature: <span id="temperature"></span>°C</p>
+                <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
+                <p>Wind Chill Factor: <span id="windChill"></span>°C</p>
             </div>
         </div>
     </main>
@@ -96,6 +98,6 @@
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
