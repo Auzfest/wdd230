@@ -283,3 +283,31 @@ footer {
     background-color: #2738D3;
     color: #CDD7D6;
 }
+
+/*discover page*/
+
+.sidebar {
+    border: 5px solid rgba(0, 0, 0);
+    text-align: center;
+}
+
+.imagebar{
+    text-align: center;
+    border: 5px solid rgba(0, 0, 0);
+}
+
+.imagebar picture {
+    text-align: center;
+}
+
+.imagebar picture img {
+    border: 5px solid rgba(0, 0, 0);
+    margin: 1rem;
+
+}
+
+#lastdays {
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+}

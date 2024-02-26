@@ -10,18 +10,14 @@ function calculateWindChill(temperature, windSpeed) {
 
 // Function to update weather information
 function updateWeather() {
-    // Mock data - replace with actual data extraction from the page
     const currentTemperature = 51; // in Celsius
     const currentWindSpeed = 20; // in km/h
 
-    // Calculate wind chill factor
     const windChill = calculateWindChill(currentTemperature, currentWindSpeed);
 
-    // Update HTML elements
     document.getElementById('temperature').textContent = currentTemperature;
     document.getElementById('windSpeed').textContent = currentWindSpeed;
     document.getElementById('windChill').textContent = windChill.toFixed(2);
 }
 
-// Call updateWeather function when the page loads
 window.onload = updateWeather;

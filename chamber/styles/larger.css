@@ -50,4 +50,37 @@
     grid-column: 1/3;
     grid-row: 3/4;
 }
+
+/*discover page*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sidebar {
+    grid-column: 1/2;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+.sidebar div {
+    margin: 2rem;
+}
+
+.imagebar{
+    grid-column: 2/3;
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+}
+
+.imagebar picture img:hover {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+
+}
 }
