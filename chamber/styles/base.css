@@ -298,12 +298,13 @@ footer {
 
 .imagebar picture {
     text-align: center;
+    display: grid;
+    padding: 2rem;
 }
 
 .imagebar picture img {
     border: 5px solid rgba(0, 0, 0);
-    margin: 1rem;
-
+    margin: auto;
 }
 
 #lastdays {
