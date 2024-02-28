@@ -17,6 +17,10 @@
     transition: all 0.3s ease;
 }
 
+.statement {
+    font-size: 3rem;
+}
+
 
 .goalgrid h2 {
     font-family: 'Bebas Neue', 'Montserrat';

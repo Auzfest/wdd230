@@ -10,14 +10,14 @@ function calculateWindChill(temperature, windSpeed) {
 
 // Function to update weather information
 function updateWeather() {
-    const currentTemperature = 51; // in Celsius
+    const currentTemperature = 40; // in Celsius
     const currentWindSpeed = 20; // in km/h
 
     const windChill = calculateWindChill(currentTemperature, currentWindSpeed);
 
     document.getElementById('temperature').textContent = currentTemperature;
     document.getElementById('windSpeed').textContent = currentWindSpeed;
-    document.getElementById('windChill').textContent = windChill.toFixed(2);
+    document.getElementById('windChill').textContent = windChill.toFixed(1);
 }
 
 window.onload = updateWeather;
