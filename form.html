@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/larger.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/form.css">
+        <title>Austin Barnes - WDD 230 - Web Frontend Development</title>
+        <meta name="description" content="WDD 230 - Web Development, Thomas Austin Barnes IV, course assignment portal">
+        <meta name="author" content="Thomas Austin Barnes IV">
+        <meta property="og:url"                content="https://auzfest.github.io/wdd230/" >
+        <meta property="og:type"               content="website" >
+        <meta property="og:title"              content="WDD230 Home" >
+        <meta property="og:description"        content="Home page for Austin Barnes' WDD230" >
+        <meta property="og:image"              content="images/AustBarnes.webp">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <img src="images/AustinBarnes.webp" alt="Austin Barnes" class="logo">
+            <h1>Austin Barnes</h1>
+            <button id="menu"></button>
+        </header>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="">Site Plan</a>
+            <a href="chamber/index.html">Chamber</a>
+            <a href="">BYU-Idaho</a>
+            <a href="">Scripture</a>
+        </nav>
+        <h2>Site Rating Application</h2>
+        <form action="thankyou.html" method="get">
+            <div>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+              <label for="password">Password: (Must be 8 characters long)</label>
+              <input type="password" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required>
+            </div>
+            <div>
+              <label for="confirm_password">Confirm Password:</label>
+              <input type="password" id="confirm_password" name="confirm_password" required oninput="checkPasswordMatch()">
+              <span id="password_error" style="color: red;"></span>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="A valid byui.edu email address.">
+            </div>
+            <div>
+              <label for="page_rating">Page Rating:</label>
+              <input type="range" id="page_rating" name="page_rating" min="1" max="10" step="1" oninput="updateRangeValue()">
+              <span id="rating_value">1</span>
+              <span id="rating_error" style="color: red;"></span>
+            </div>
+            <div>
+              <button id="submitbutton" type="submit">Finish Rating</button>
+            </div>
+          </form>
+          <div class="filler"></div>
+        <footer>
+            <p id="dateParagraph"></p>
+            <p>Thomas Austin Barnes <br> United States of America</p>
+            <p>lastModified: 1/24/2024</p>
+        </footer>
+        <script src="scripts/getdates.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/form.js"></script>
+    </body>
+</html>

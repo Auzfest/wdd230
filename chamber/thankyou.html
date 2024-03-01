@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Development, Thomas Austin Barnes IV, Amanzimtoti Chamber of Commerce Home">
+    <meta name="author" content="Thomas Austin Barnes IV">
+    <meta property="og:url"                content="https://auzfest.github.io/wdd230/chamber/index.html">
+    <meta property="og:type"               content="website">
+    <meta property="og:title"              content="Amanzimtoti Chamber of Commerce">
+    <meta property="og:description"        content="Home page for Amanzimtoti CoC">
+    <meta property="og:image"              content="https://auzfest.github.io/wdd230/chamber/images/SiteLogo.png">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <title>Amanzimtoti Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img src="images/SiteLogo.webp" alt="Amanzimtoti Chamber Logo">
+        <h1>Amanzimtoti Chamber of Commerce</h1>
+        <p>Welcome to <q>Sweet Waters</q></p>
+        <button id="menu"></button>
+        <label class="switch">
+            <input type="checkbox" id="checkbox">
+            <span class="slider"></span>
+        </label>
+    </header>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Events</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </nav>
+    <main>
+        <div class="filler"></div>
+        <div class="thankyoumsg">
+            <h2>Application Recieved!</h2>
+            <hr class="solid">
+            <p>Thank you! Your time to rate our site is greatly appreciated!<br>
+            You may now navigate to other pages.</p>
+        </div>
+        <div class="filler"></div>
+    </main>
+    <footer>
+        <p>WDD230 by Austin Barnes</p>
+        <p id="dateParagraph">lastModified: 1/29/2024</p>
+        <p id="modifiedP"></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
