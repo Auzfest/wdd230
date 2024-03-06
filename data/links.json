@@ -4,11 +4,11 @@
         "lesson": "01",
         "links": [
           {
-            "url": "../lesson01/holygrail.html",
+            "url": "/lesson01/holygrail.html",
             "title": "Grail"
           },
           {
-            "url": "../lesson01/media-query.html",
+            "url": "/lesson01/media-query.html",
             "title": "Media Query"
           }
         ]
@@ -17,11 +17,11 @@
         "lesson": "02",
         "links": [
           {
-            "url": "../lesson02/design-principles.html",
+            "url": "/lesson02/design-principles.html",
             "title": "Design Principles"
           },
           {
-            "url": "../lesson02/design.html",
+            "url": "/lesson02/design.html",
             "title": "Design"
           }
         ]
@@ -30,7 +30,7 @@
         "lesson": "03",
         "links": [
           {
-            "url": "../lesson03/chamber-site-plan.html",
+            "url": "/lesson03/chamber-site-plan.html",
             "title": "Chamber Site Plan"
           }
         ]
@@ -48,7 +48,7 @@
         "lesson": "05",
         "links": [
           {
-            "url": "../lesson05/bom.html",
+            "url": "/lesson05/bom.html",
             "title": "Book of Mormon"
           }
         ]
@@ -75,7 +75,7 @@
         "lesson": "08",
         "links": [
           {
-            "url": "../lesson08/tablebuild.html",
+            "url": "/lesson08/tablebuild.html",
             "title": "Table"
           }
         ]
@@ -84,7 +84,7 @@
         "lesson": "09",
         "links": [
           {
-            "url": "../lesson09/prophets.html",
+            "url": "/lesson09/prophets.html",
             "title": "Prophets"
           }
         ]
