@@ -18,7 +18,7 @@ async function displayLinks(data){
         lessonDiv.classList.add('lesson'); // Add a class to the div for styling (optional)
 
         // Create a header for the lesson
-        const lessonHeader = document.createElement('h2');
+        const lessonHeader = document.createElement('p');
         lessonHeader.textContent = `Lesson ${lessonData.lesson}`;
         lessonDiv.appendChild(lessonHeader);
 
@@ -41,11 +41,6 @@ async function displayLinks(data){
 
         // Append the lesson div to the container
         lessonContainer.appendChild(lessonDiv);
-
-/*         const list = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = data.add('url');
-        list.appendChild(a); */
     });
 }
   
