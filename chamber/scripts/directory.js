@@ -11,10 +11,10 @@ function renderMembers(data) {
     memberDiv.classList.add('member');
     memberDiv.innerHTML = `
       <h2>${member.name}</h2>
-      <img src="images/${member.image}" alt="${member.name} Logo" width="100">
+      <img src="${member.image}" alt="${member.name} Logo" width="100">
       <p><strong>Address:</strong> ${member.address}</p>
       <p><strong>Phone:</strong> ${member.phone}</p>
-      <p><strong>Website:</strong> <a href="${member.website}">${member.website}</a></p>
+      <p><strong>Website:</strong> <a href="${member.website}">${member.name}</a></p>
       <p><strong>Membership Level:</strong> ${member.membership_level}</p>
       <p><strong>Other Information:</strong> ${member.other_information}</p>
     `;

@@ -418,13 +418,14 @@ form {
 }
 
 .member p {
-    margin: 10px 0;
+    margin: 10px 5%;
 }
 
 .member img {
     margin-top: 10px;
     max-width: 100%; 
     height: auto; 
+    border: #000 solid;
     border-radius: 4px; 
 }
 
