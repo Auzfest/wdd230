@@ -374,3 +374,71 @@ form {
     border-top: 3px solid #bbb;
     width: 50%;
   }
+
+  /*Directory Page*/
+
+.directoryhead {
+    text-align: center;
+}
+
+.viewButtonContainer {
+    text-align: center;
+}
+
+.viewButton {
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'Bebas Neue', 'Montserrat';
+    background-color: #F6AA1C;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.member {
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.member h2 {
+    margin-top: 0;
+}
+
+.member p {
+    margin: 10px 0;
+}
+
+.member img {
+    margin-top: 10px;
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 4px; 
+}
+
+.list-view {
+    display: block;
+}
+
+.list-view .member {
+    margin: 5%;
+    border: none; 
+    box-shadow: none;
+    padding: 10px 0; 
+}
+
+.list-view .member p {
+    margin: 5px 0; 
+}

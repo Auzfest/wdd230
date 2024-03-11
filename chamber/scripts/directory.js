@@ -11,12 +11,12 @@ function renderMembers(data) {
     memberDiv.classList.add('member');
     memberDiv.innerHTML = `
       <h2>${member.name}</h2>
+      <img src="images/${member.image}" alt="${member.name} Logo" width="100">
       <p><strong>Address:</strong> ${member.address}</p>
       <p><strong>Phone:</strong> ${member.phone}</p>
       <p><strong>Website:</strong> <a href="${member.website}">${member.website}</a></p>
       <p><strong>Membership Level:</strong> ${member.membership_level}</p>
       <p><strong>Other Information:</strong> ${member.other_information}</p>
-      <img src="images/${member.image}" alt="${member.name} Logo" width="100">
     `;
     membersDiv.appendChild(memberDiv);
   });
@@ -33,10 +33,10 @@ toggleButton.addEventListener('click', function() {
   isGridView = !isGridView;
   if (isGridView) {
     membersDiv.classList.remove('list-view');
-    toggleButton.textContent = 'Grid View';
+    toggleButton.textContent = 'To List View';
   } else {
     membersDiv.classList.add('list-view');
-    toggleButton.textContent = 'List View';
+    toggleButton.textContent = 'To Grid View';
   }
 });
 
