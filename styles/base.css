@@ -193,9 +193,13 @@ div a {
     font-size: 28px;
 }
 
+#describeWeather {
+    text-align: center;
+    font-size: 28px;
+}
+
 #weather-icon {
     text-align: center;
-    width: 50%;
     height: auto;
 }
 
