@@ -23,17 +23,17 @@ async function displayLinks(data){
         lessonDiv.appendChild(lessonHeader);
 
         // Create an unordered list to hold the links for the lesson
-        const linkList = document.createElement('ul');
+        const linkList = document.createElement('div');
 
         // Iterate over each link in the lesson
         lessonData.links.forEach(link => {
             // Create list item and anchor element for each link
-            const listItem = document.createElement('li');
+            //const listItem = document.createElement('li');
             const anchor = document.createElement('a');
             anchor.href = baseURL + link.url; // Construct the full URL using the baseURL and link URL
             anchor.textContent = link.title;
-            listItem.appendChild(anchor);
-            linkList.appendChild(listItem);
+            linkList.appendChild(anchor);
+            //linkList.appendChild(listItem);
         });
 
         // Append the link list to the lesson div

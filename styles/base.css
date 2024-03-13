@@ -174,9 +174,29 @@ li a:hover {
     transform: scale(1.5);
 }
 
+section {
+    text-align: center;
+}
+
 div {
     font-size: 20px;
     text-align: center;
+}
+
+div a {
+    display: block;
+    text-decoration: none;
+}
+
+#weatherp {
+    text-align: center;
+    font-size: 28px;
+}
+
+#weather-icon {
+    text-align: center;
+    width: 50%;
+    height: auto;
 }
 
 iframe {
