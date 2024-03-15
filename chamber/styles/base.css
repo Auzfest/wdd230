@@ -176,6 +176,18 @@ nav.open {
 	display: block;
 }
 
+#chamberBanner {
+    grid-template-columns: 2fr 1fr;
+    background-color: #F6AA1C;
+    text-align: right;
+}
+
+#chamberBanner button{
+    width: 5rem;
+    margin: 1rem;
+    background-color: #F6AA1C;
+}
+
 .statement {
     font-family: 'Bebas Neue', 'Montserrat';
 }

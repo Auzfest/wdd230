@@ -31,9 +31,13 @@
     <nav class="navigation">
         <a href="index.html">Home</a>
         <a href="discover.html">Events</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>
     </nav>
+    <div id="chamberBanner" style="display: none;">
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+        <button onclick="closeBanner()">Close</button>
+    </div>
     <main>
         <div class="heroborder">
             <img src="images/AmanzimtotiBeach.webp" alt="hero image" class="hero">
@@ -84,9 +88,10 @@
                 <p id="eventendp">We always have new events coming up! Make sure to come back and check often!</p>
             </div>
             <div class="weather">
-                <p>Temperature: <span id="current-temp"></span></p>
+                <p>Temperature: <span id="current-temp"></span><br><span id="describeWeather"></span></p>
                 <p>Wind Speed: <span id="windSpeed"></span> km/h</p>
-                <p>Wind Chill Factor: <span id="windChill"></span>°C</p>
+                <p>Wind Chill Factor: <span id="windChill"></span></p>
+                <p>Forecast for the next three days:</p>
             </div>
         </div>
     </main>
@@ -99,6 +104,5 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/weather.js"></script>
-    <script src="scripts/windchill.js"></script>
 </body>
 </html>
