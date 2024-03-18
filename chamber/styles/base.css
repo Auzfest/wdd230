@@ -423,14 +423,17 @@ form {
     padding-top: 1%; 
     margin-bottom: 20px;
     background-color: #fff;
+    min-width: 50%;
 }
 
 .member h2 {
     margin-top: 0;
+    font-size: 100%;
 }
 
 .member p {
     margin: 10px 5%;
+    font-size: 100%;
 }
 
 .member img {
