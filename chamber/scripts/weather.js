@@ -1,4 +1,5 @@
 const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
 const describeWeather = document.querySelector('#describeWeather')
 const weatherDiv = document.querySelector('.weather');
 const windSpeed = document.querySelector("#windSpeed");
@@ -26,6 +27,10 @@ function displayResults(data) {
   forecasts.forEach(forecast => {
       currentTemp.innerHTML = `${forecast.main.temp}&deg;F`;
       describeWeather.innerHTML = `with ${forecast.weather[0].description}`;
+      const iconsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
+      let desc = forecast.weather[0].description;
+      weatherIcon.setAttribute('src', iconsrc);
+      weatherIcon.setAttribute('alt', desc);
       windSpeed.innerHTML = `${forecast.wind.speed}`;
   });
 
@@ -37,11 +42,19 @@ document.getElementById('windChill').textContent = windChill;
     const forecast = data.list[i * 8];
     const forecastTemp = forecast.main.temp;
     const forecastDesc = forecast.weather[0].description;
+    const iconfsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
+    let descf = forecast.weather[0].description;
+    weatherIcon.setAttribute('src', iconfsrc);
+    weatherIcon.setAttribute('alt', descf);
 
     // Update HTML for each forecast
     const forecastElement = document.createElement('div');
     forecastElement.innerHTML = `<p>${forecastTemp}&deg;F - ${forecastDesc}</p>`;
     weatherDiv.appendChild(forecastElement);
+    const forecastImg = document.createElement('img');
+    forecastImg.src = iconfsrc;
+    weatherDiv.appendChild(forecastImg);
+
   }
 }
 
