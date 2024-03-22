@@ -55,6 +55,13 @@
     grid-row: 3/4;
 }
 
+.homegrid {
+    position: relative;
+    top: -250px;
+    background-color: white;
+    padding-top: 5%;
+}
+
 /*discover page*/
 
 .container {

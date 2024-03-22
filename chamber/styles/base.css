@@ -303,6 +303,11 @@ footer {
     text-align: center;
 }
 
+.sidebar p {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
 .imagebar{
     text-align: center;
     border: 5px solid rgba(0, 0, 0);
@@ -333,8 +338,6 @@ footer {
     grid-template-rows: 1fr .5fr;
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
   }
 
   .form-container label {
@@ -391,6 +394,8 @@ form {
 
 .directoryhead {
     text-align: center;
+    margin: 0;
+    margin-bottom: 1%;
 }
 
 .viewButtonContainer {
